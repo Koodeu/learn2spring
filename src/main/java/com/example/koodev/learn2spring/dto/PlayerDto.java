@@ -9,10 +9,11 @@ import lombok.Setter;
 @Setter
 public class PlayerDto {
 
+    private Long id;
     private Long score;
     private String nickname;
 
-    public PlayerDto(Long score, String nickname) {
+    public PlayerDto(Long id, Long score, String nickname) {
         this.score = score;
         this.nickname = nickname;
     }
