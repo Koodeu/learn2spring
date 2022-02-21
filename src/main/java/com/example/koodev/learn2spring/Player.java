@@ -1,19 +1,22 @@
-package com.example.koodev.learn2spring.dto;
+package com.example.koodev.learn2spring;
 
-import lombok.AllArgsConstructor;
-import lombok.Data;
 import lombok.Getter;
 import lombok.Setter;
 
 @Getter
 @Setter
-public class PlayerDto {
+public class Player {
 
     private Long score;
     private String nickname;
 
-    public PlayerDto(Long score, String nickname) {
+
+    public Player(Long score, String nickname) {
         this.score = score;
         this.nickname = nickname;
     }
+
+
+
+
 }
